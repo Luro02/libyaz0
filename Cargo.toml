@@ -9,9 +9,7 @@ repository = "https://github.com/luro02/libyaz0"
 readme = "README.md"
 documentation = "https://docs.rs/libyaz0"
 keywords = [
-    "yaz0", "gamecube", "gcn", "romhacking",
-    "nintendo", "switch", "compression", "decompression",
-    "3ds", "wii"
+    "yaz0", "romhacking", "nintendo", "switch", "compression"
 ]
 categories = ["compression"]
 
