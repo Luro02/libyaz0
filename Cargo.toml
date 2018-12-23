@@ -1,0 +1,27 @@
+[package]
+name = "libyaz0"
+version = "0.1.0"
+authors = ["Luro02 <luro02@users.noreply.github.com>"]
+edition = "2018"
+description = "A library for de/compressing Nintendo Yaz0 files"
+license = "MIT"
+repository = "https://github.com/luro02/libyaz0"
+readme = "README.md"
+documentation = "https://docs.rs/libyaz0"
+keywords = [
+    "yaz0", "gamecube", "gcn", "romhacking",
+    "nintendo", "switch", "compression", "decompression",
+    "3ds", "wii"
+]
+categories = ["compression"]
+
+
+[dependencies]
+byteorder = "1.2.7"
+
+[dev-dependencies]
+rand = "0.6.1"
+pretty_assertions = "0.5.1"
+
+[badges]
+maintenance = { status = "actively-developed" } # yeah, yeah ;) # TODO?!
